@@ -1,0 +1,12 @@
+servers:
+  - name: "first-app"
+    port: 8080
+    backends:
+      - url: "http://localhost:9001"
+      - url: "http://localhost:9002"
+  - name: "second-app" 
+    port: 8081
+    backends:
+      - url: "http://localhost:9003"
+      - url: "http://localhost:9004"
+
