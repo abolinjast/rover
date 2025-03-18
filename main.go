@@ -57,6 +57,7 @@ func newRover(target string) (*httputil.ReverseProxy, error) {
     return proxy, nil
 }
 
+// The main function
 func main(){
     config, err := loadConfig("config/config.yml")
 	if err != nil {
