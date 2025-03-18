@@ -44,6 +44,7 @@ func loadConfig(filename string) (Config, error) {
     return config, nil
 }
 
+// This function initializes a new rover
 func newRover(target string) (*httputil.ReverseProxy, error) {
     url, err := url.Parse(target)
     if err != nil {
