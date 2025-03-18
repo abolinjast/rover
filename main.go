@@ -8,7 +8,6 @@ import (
 	"net/url"
     "os"
 
-
 	"github.com/fatih/color"
     "gopkg.in/yaml.v2"
 )
