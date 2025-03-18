@@ -26,6 +26,7 @@ type Config struct {
     Servers []Server `yaml:"servers"`
 }
 
+// This function loads the config
 func loadConfig(filename string) (Config, error) {
     var config Config
 
